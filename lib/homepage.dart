@@ -194,13 +194,17 @@ class HomePage extends StatelessWidget {
                         Container(
                           height: 80,
                           width: 140,
-                          margin: EdgeInsets.only(top: 8),
+                          margin: EdgeInsets.only(top: 8, bottom: 8, left: 8),
                           decoration: BoxDecoration(
                             boxShadow: [
                               BoxShadow(
                                 color: Colors.black.withOpacity(.15),
-                                offset: Offset(4,4)
-                              )
+                                offset: Offset(4,4), blurRadius: 8
+                              ),
+                              BoxShadow(
+                                  color: Colors.black.withOpacity(.15),
+                                  offset: Offset(-4,-4)
+                              ),
                             ],
                             color: boxColor,
                             borderRadius: BorderRadius.circular(12)
@@ -233,13 +237,17 @@ class HomePage extends StatelessWidget {
                         Container(
                           height: 80,
                           width: 140,
-                          margin: EdgeInsets.only(top: 8),
+                          margin: EdgeInsets.only(top: 8, bottom: 8),
                           decoration: BoxDecoration(
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(.15),
-                                    offset: Offset(4,4)
-                                )
+                                    offset: Offset(4,4), blurRadius: 8
+                                ),
+                                BoxShadow(
+                                    color: Colors.black.withOpacity(.15),
+                                    offset: Offset(-4,-4)
+                                ),
                               ],
                               color: boxColor,
                               borderRadius: BorderRadius.circular(12)
@@ -272,13 +280,17 @@ class HomePage extends StatelessWidget {
                         Container(
                           height: 80,
                           width: 140,
-                          margin: EdgeInsets.only(top: 8),
+                          margin: EdgeInsets.only(top: 8, bottom: 8, right: 8),
                           decoration: BoxDecoration(
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(.15),
-                                    offset: Offset(4,4)
-                                )
+                                    offset: Offset(4,4), blurRadius: 8
+                                ),
+                                BoxShadow(
+                                    color: Colors.black.withOpacity(.15),
+                                    offset: Offset(-4,-4)
+                                ),
                               ],
                               color: boxColor,
                               borderRadius: BorderRadius.circular(12)
@@ -348,13 +360,17 @@ class HomePage extends StatelessWidget {
                         Container(
                           height: 80,
                           width: 80,
-                          margin: EdgeInsets.only(top: 8),
+                          margin: EdgeInsets.only(top: 8, bottom: 8, left: 8),
                           decoration: BoxDecoration(
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(.15),
-                                    offset: Offset(4,4)
-                                )
+                                    offset: Offset(4,4), blurRadius: 8
+                                ),
+                                BoxShadow(
+                                    color: Colors.black.withOpacity(.15),
+                                    offset: Offset(-4,-4)
+                                ),
                               ],
                               color: boxColor,
                               borderRadius: BorderRadius.circular(12)
@@ -386,13 +402,17 @@ class HomePage extends StatelessWidget {
                         Container(
                           height: 80,
                           width: 80,
-                          margin: EdgeInsets.only(top: 8),
+                          margin: EdgeInsets.only(top: 8, bottom: 8),
                           decoration: BoxDecoration(
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(.15),
-                                    offset: Offset(4,4)
-                                )
+                                    offset: Offset(4,4), blurRadius: 8
+                                ),
+                                BoxShadow(
+                                    color: Colors.black.withOpacity(.15),
+                                    offset: Offset(-4,-4)
+                                ),
                               ],
                               color: boxColor,
                               borderRadius: BorderRadius.circular(12)
@@ -424,13 +444,17 @@ class HomePage extends StatelessWidget {
                         Container(
                           height: 80,
                           width: 80,
-                          margin: EdgeInsets.only(top: 8),
+                          margin: EdgeInsets.only(top: 8, bottom: 8),
                           decoration: BoxDecoration(
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(.15),
-                                    offset: Offset(4,4)
-                                )
+                                    offset: Offset(4,4), blurRadius: 8
+                                ),
+                                BoxShadow(
+                                    color: Colors.black.withOpacity(.15),
+                                    offset: Offset(-4,-4)
+                                ),
                               ],
                               color: boxColor,
                               borderRadius: BorderRadius.circular(12)
@@ -462,13 +486,17 @@ class HomePage extends StatelessWidget {
                         Container(
                           height: 80,
                           width: 80,
-                          margin: EdgeInsets.only(top: 8),
+                          margin: EdgeInsets.only(top: 8, bottom: 8),
                           decoration: BoxDecoration(
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(.15),
-                                    offset: Offset(4,4)
-                                )
+                                    offset: Offset(4,4), blurRadius: 8
+                                ),
+                                BoxShadow(
+                                    color: Colors.black.withOpacity(.15),
+                                    offset: Offset(-4,-4)
+                                ),
                               ],
                               color: boxColor,
                               borderRadius: BorderRadius.circular(12)
@@ -500,13 +528,17 @@ class HomePage extends StatelessWidget {
                         Container(
                           height: 80,
                           width: 80,
-                          margin: EdgeInsets.only(top: 8),
+                          margin: EdgeInsets.only(top: 8, bottom: 8),
                           decoration: BoxDecoration(
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(.15),
-                                    offset: Offset(4,4)
-                                )
+                                    offset: Offset(4,4), blurRadius: 8
+                                ),
+                                BoxShadow(
+                                    color: Colors.black.withOpacity(.15),
+                                    offset: Offset(-4,-4)
+                                ),
                               ],
                               color: boxColor,
                               borderRadius: BorderRadius.circular(12)
@@ -538,13 +570,17 @@ class HomePage extends StatelessWidget {
                         Container(
                           height: 80,
                           width: 80,
-                          margin: EdgeInsets.only(top: 8),
+                          margin: EdgeInsets.only(top: 8, bottom: 8),
                           decoration: BoxDecoration(
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(.15),
-                                    offset: Offset(4,4)
-                                )
+                                    offset: Offset(4,4), blurRadius: 8
+                                ),
+                                BoxShadow(
+                                    color: Colors.black.withOpacity(.15),
+                                    offset: Offset(-4,-4)
+                                ),
                               ],
                               color: boxColor,
                               borderRadius: BorderRadius.circular(12)
@@ -576,13 +612,17 @@ class HomePage extends StatelessWidget {
                         Container(
                           height: 80,
                           width: 80,
-                          margin: EdgeInsets.only(top: 8),
+                          margin: EdgeInsets.only(top: 8, bottom: 8, right: 8),
                           decoration: BoxDecoration(
                               boxShadow: [
                                 BoxShadow(
                                     color: Colors.black.withOpacity(.15),
-                                    offset: Offset(4,4)
-                                )
+                                    offset: Offset(4,4), blurRadius: 8
+                                ),
+                                BoxShadow(
+                                    color: Colors.black.withOpacity(.15),
+                                    offset: Offset(-4,-4)
+                                ),
                               ],
                               color: boxColor,
                               borderRadius: BorderRadius.circular(12)
@@ -634,13 +674,17 @@ class HomePage extends StatelessWidget {
                           child: Container(
                             height: 80,
                             width: 80,
-                            margin: EdgeInsets.only(top: 8),
+                            margin: EdgeInsets.only(top: 8, bottom: 8),
                             decoration: BoxDecoration(
                                 boxShadow: [
                                   BoxShadow(
                                       color: Colors.black.withOpacity(.15),
-                                      offset: Offset(4,4)
-                                  )
+                                      offset: Offset(4,4), blurRadius: 8
+                                  ),
+                                  BoxShadow(
+                                      color: Colors.black.withOpacity(.15),
+                                      offset: Offset(-4,-4)
+                                  ),
                                 ],
                                 color: boxColor,
                                 borderRadius: BorderRadius.circular(12)
@@ -668,13 +712,17 @@ class HomePage extends StatelessWidget {
                           child: Container(
                             height: 80,
                             width: 80,
-                            margin: EdgeInsets.only(top: 8),
+                            margin: EdgeInsets.only(top: 8, bottom: 8),
                             decoration: BoxDecoration(
                                 boxShadow: [
                                   BoxShadow(
                                       color: Colors.black.withOpacity(.15),
-                                      offset: Offset(4,4)
-                                  )
+                                      offset: Offset(4,4), blurRadius: 8
+                                  ),
+                                  BoxShadow(
+                                      color: Colors.black.withOpacity(.15),
+                                      offset: Offset(-4,-4)
+                                  ),
                                 ],
                                 color: boxColor,
                                 borderRadius: BorderRadius.circular(12)
@@ -702,13 +750,17 @@ class HomePage extends StatelessWidget {
                           child: Container(
                             height: 80,
                             width: 80,
-                            margin: EdgeInsets.only(top: 8),
+                            margin: EdgeInsets.only(top: 8, bottom: 8),
                             decoration: BoxDecoration(
                                 boxShadow: [
                                   BoxShadow(
                                       color: Colors.black.withOpacity(.15),
-                                      offset: Offset(4,4)
-                                  )
+                                      offset: Offset(4,4), blurRadius: 8
+                                  ),
+                                  BoxShadow(
+                                      color: Colors.black.withOpacity(.15),
+                                      offset: Offset(-4,-4)
+                                  ),
                                 ],
                                 color: boxColor,
                                 borderRadius: BorderRadius.circular(12)
@@ -736,13 +788,17 @@ class HomePage extends StatelessWidget {
                           child: Container(
                             height: 80,
                             width: 80,
-                            margin: EdgeInsets.only(top: 8),
+                            margin: EdgeInsets.only(top: 8, bottom: 8),
                             decoration: BoxDecoration(
                                 boxShadow: [
                                   BoxShadow(
                                       color: Colors.black.withOpacity(.15),
-                                      offset: Offset(4,4)
-                                  )
+                                      offset: Offset(4,4), blurRadius: 8
+                                  ),
+                                  BoxShadow(
+                                      color: Colors.black.withOpacity(.15),
+                                      offset: Offset(-4,-4)
+                                  ),
                                 ],
                                 color: boxColor,
                                 borderRadius: BorderRadius.circular(12)
